@@ -1,0 +1,52 @@
+form{
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  margin: auto;
+  background-color: white;
+  margin-top: 33px;
+  padding: 11px;
+  text-align: center;
+}
+.heading{
+  text-align: center;
+  font-weight: 600;
+  font-size: 33px;
+  margin-top: 0;
+}
+form input{
+  width: 90%;
+  border: 1px solid black;
+  padding: 6px;
+  font-size: 18px;
+  position: relative;
+  top: -13px;
+  border-radius: 50px;
+}
+.fieldName{
+  text-align: left;
+  margin-left: 11px;
+  font-weight: 500;
+}
+form .data{
+  margin-top: -13px;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 12px;
+}
+form .nodata{
+  margin-top: -13px;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 12px;
+  color: red;
+}
+form button{
+  /* background-color: gray;
+  color: red; */
+  font: size 15px;
+  border-radius: 50px;
+}
+body{
+  background-color: gray;
+}
